@@ -3,6 +3,14 @@ description: "Comprehensive documentation for the Hydra project."
 
 remote_theme: "just-the-docs/just-the-docs@v0.5.4"
 
+just_the_docs:
+  # Enable the theme switcher
+  color_scheme_toggle:
+    enabled: true
+  # Set the default color scheme: light, dark, or auto
+  skin:
+    color_scheme: auto
+
 # Exclude files from processing
 exclude:
   - Gemfile
