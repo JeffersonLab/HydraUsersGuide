@@ -1,5 +1,5 @@
 ---
-title: "Installation"
+title: "Download"
 nav_order: 3
 ---
 
