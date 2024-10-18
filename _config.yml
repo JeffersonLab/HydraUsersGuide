@@ -1,6 +1,5 @@
 title: "Hydra User's Guide"
 description: "Comprehensive documentation for the Hydra project."
-theme: "just-the-docs"
 
 remote_theme: "just-the-docs/just-the-docs@v0.5.4"
 
