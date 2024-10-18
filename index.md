@@ -1,13 +1,14 @@
-# Hydra User's Guide
+---
+title: "Home"
+nav_order: 1
+---
 
-Welcome to the official User's Guide for the **Hydra** project. 
+# Welcome to the Hydra Users Guide
 
-## Introduction 
+This guide provides comprehensive documentation for the **Hydra** project.
 
-## Installation
-
-## Usage
-
-## Contributing
-
-## License
+- [Introduction](introduction.md)
+- [Installation](installation.md)
+- [Usage](usage.md)
+- [Contributing](contributing.md)
+- [License](license.md)
