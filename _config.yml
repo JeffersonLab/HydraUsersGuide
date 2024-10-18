@@ -13,3 +13,21 @@ exclude:
 
 # Build settings
 markdown: kramdown
+
+logo: "/assets/hydra_logo.png"
+
+# In _config.yml
+# Color scheme
+color_scheme: "dark"
+
+# Custom colors
+just_the_docs:
+  palette:
+    primary:
+      hue: "blue"
+      saturation: "60%"
+      lightness: "50%"
+    accent:
+      hue: "red"
+      saturation: "60%"
+      lightness: "50%"
