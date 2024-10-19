@@ -5,4 +5,4 @@ nav_order: 3
 
 # Installation
 
-[Content for the Installation section.]
+A containerized version of Hydra is available on Dockerhub.  
