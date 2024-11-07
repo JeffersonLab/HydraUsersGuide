@@ -12,3 +12,7 @@ The Hydra Run page displays a "security cam" view of monitoring histograms and t
 
 Optionally, GradCAM (cite) heat maps can be overlayed for images that are classified as bad. These heat maps indicate where the model is looking when classifying a bad image. The opacity slider can be used to increase or decrease the opacity as needed. 
 
+An example Hydra Run page is shown below. 
+
+![Example Hydra Run](../assets/Run_Page.png "Example of Hydra Run")
+
