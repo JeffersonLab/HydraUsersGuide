@@ -1,5 +1,6 @@
 ---
 title: "Table Descriptions"
 parent: "Database"
-nav_order: 2
+grand_parent: "Developers"
+nav_order: 1
 ---
