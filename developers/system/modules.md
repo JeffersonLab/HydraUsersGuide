@@ -1,7 +1,8 @@
 ---
 title: "Modules"
 parent: "System"
-nav_order: 2
+grand_parent: "Developers"
+nav_order: 1
 ---
 The Hydra system contains four modules with well defined tasks. 
 
