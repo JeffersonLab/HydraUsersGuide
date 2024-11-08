@@ -29,6 +29,6 @@ just_the_docs:
       saturation: "60%"
       lightness: "50%"
     accent:
-      hue: "red"
-      saturation: "60%"
-      lightness: "50%"
+      hue: "215"
+      saturation: "65%"
+      lightness: "45%"
