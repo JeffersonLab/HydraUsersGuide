@@ -42,27 +42,35 @@ Used for:
 Used by:  
 
 ## Models
-Used for:  Storing references to trained models, confusion matrices, loss and accuracy curves, 
-Used by:  Hydra training script, 
+Used for:  Storing references to trained models, confusion matrices, loss and accuracy curves,  
+
+Used by:  
+- **Front end:** Model Library
+- **System:** Hydra training script 
 
 ## Monitoring Log
-Used for:  
-Used by:  
+Used for:  Monitoring Log stores information about all confirmed "Bad" and unconfirmed images.
+
+Used by:  Hydra Log
 
 ## News
-Used for:  
-Used by:  
+Used for:  To store News and alerts during Hydra operations. 
+
+Used by:  All front end pages
 
 ## Plot Groups
-Used for:  
+Used for:  This has been deprecated, but was used to create a mapping of images to groups. 
+
 Used by:  
 
 ## Plot Type Groupings
-Used for:  
+Used for:  This table enables a one-to-one correspondance between plot types and plot groups. 
+
 Used by:  
 
 ## Plot Classifications
-Used for:  
+Used for:  Used to store the different types of classifications and their associated label and reserved color. The labels typically correspond to "Good", "Bad", and "NoData", but can be extended based on the end user's needs. We also reserve certain colors for the labels, for instance "Red" is reserved for Bad. 
+
 Used by:  
 
 ## Plot Classification Types
@@ -70,7 +78,7 @@ Used for:
 Used by:  
 
 ## Plot Types
-Used for:  Indicating which images Hydra should track
+Used for:  Indicating which images Hydra should track. 
 
 Used by:  
 
@@ -97,7 +105,7 @@ Used for:
 Used by:  
 
 ## Run Conditions
-Used for:  
+Used for:  Storing run conditions. This table is currently not used. 
 Used by:  
 
 ## Status Map
@@ -105,21 +113,24 @@ Used for:
 Used by:  
 
 ## Super Groups
-Used for: Advanced image filtering  
+Used for: Advanced image filtering. This table allows for a group to contain another group. An application of this would be defining a set of images belonging to a specific run period as one group, and then having a sub-group of images related to calorimeters or tracking detectors.
 
 Used by:  
 
 ## Training Report Elements
-Used for:  
+Used for:  Used to store the individual plots included in each training report. 
+
 Used by:  
 
 ## Training Report Responses
-Used for:  
+Used for:  Stores the results of all the responses for every training report. 
+
 Used by:  
 
 ## Training Reports
-Used for:  
-Used by:  
+Used for: After a model has been trained, the model analysis script will generate a training report page that is automatically emailed to the relevant detector experts. It contains image cards where the expert can adjust the labels on the images that the model has misclassified. 
+
+Used by:  Training Reports
 
 ## User Roles
 Used for:  
