@@ -1,6 +1,6 @@
 ---
 title: "Contributing"
-nav_order: 5
+nav_order: 7
 ---
 
 # Contributing to Hydra
