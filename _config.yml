@@ -17,7 +17,7 @@ logo: "/assets/hydra_logo.png"
 
 # In _config.yml
 # Color scheme
-color_scheme: "dark"
+color_scheme: "light"
 
 # Custom colors
 just_the_docs:

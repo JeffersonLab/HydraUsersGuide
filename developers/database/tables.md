@@ -7,14 +7,14 @@ nav_order: 1
 
 # Table Descriptions
 
-Hydra's back end is an extensive MySQL database with numerous tables. A brief description of the tables and their schema is provided below.
+Hydra's back end is an extensive MySQL database with numerous tables. A brief description of the tables is provided below.
 
 ## AI Plots
 Used for:  
 Used by:  
 
 ## AI_Plots_Top_Classification_View
-Used for:
+Used for:  
 Used by:
 
 ## Balancer Status
@@ -70,12 +70,14 @@ Used for:
 Used by:  
 
 ## Plot Types
-Used for:  
+Used for:  Indicating which images Hydra should track
+
 Used by:  
 
 ## Plots
-Used for:  
-Used by:  
+Used for:  Storing references to all of the images in Plot Types  
+
+Used by:  Image Labeler, Image Browser
 
 ## Predict Status 
 Used for:  
@@ -90,7 +92,8 @@ Used for:
 Used by:  
 
 ## Run Time
-Used for: 
+Used for:  
+
 Used by:  
 
 ## Run Conditions
@@ -102,7 +105,8 @@ Used for:
 Used by:  
 
 ## Super Groups
-Used for: Advanced image filtering 
+Used for: Advanced image filtering  
+
 Used by:  
 
 ## Training Report Elements
