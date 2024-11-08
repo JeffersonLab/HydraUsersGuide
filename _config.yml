@@ -10,6 +10,14 @@ exclude:
   - node_modules
   - vendor
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-sass-converter
+
+
 # Build settings
 markdown: kramdown
 
@@ -21,14 +29,3 @@ color_scheme: "light"
 automatic_dark_mode: false
 color_scheme_toggle: true
 
-# Custom colors
-just_the_docs:
-  palette:
-    primary:
-      hue: "blue"
-      saturation: "60%"
-      lightness: "50%"
-    accent:
-      hue: "215"
-      saturation: "65%"
-      lightness: "45%"
