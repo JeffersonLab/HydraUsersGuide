@@ -1,7 +1,7 @@
 ---
 title: "Grafana Integration"
 parent: "User Interface"
-nav_order: 6
+nav_order: 7
 ---
 
 # Grafana Interface
