@@ -26,8 +26,9 @@ Used for:
 Used by:  Status page, Feeder module
 
 ## Hydra Roles
-Used for:  
-Used by:  
+Used for:  Lists the available roles in Hydra, including: Admin, Developer, Detector Expert, Labeler, Viewer and Liaison
+
+Used by:  Labeler
 
 ## Hydra Users
 Used for:  
@@ -38,8 +39,8 @@ Used for:
 Used by:  
 
 ## Model Thresholds
-Used for:  
-Used by:  
+Used for:  Storing the Model ID, Plot Classification ID, Threshold, and Threshold Method (usually F1 score)
+Used by:  Library Page
 
 ## Models
 Used for:  Storing references to trained models, confusion matrices, loss and accuracy curves,  
@@ -133,8 +134,8 @@ Used for: After a model has been trained, the model analysis script will generat
 Used by:  Training Reports
 
 ## User Roles
-Used for:  
-Used by:  
+Used for:  Tracks users and their associated roles from HydraRoles
+Used by:  Labeler
 
 ## User_Permissions
 Used for:  
