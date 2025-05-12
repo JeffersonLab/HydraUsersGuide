@@ -23,7 +23,7 @@ Hydra is automatically started either via the DAQ or cron jobs. There is no need
 
 If the Run page is not showing any plots, and you are taking production data, it can indicate a potential problem with Hydra or the monitoring systems that send Hydra images (RootSpy in Hall D, mon12 in Hall B, Panguin in Halls A/C). If you suspect something is wrong, do not hesitate to contact us. 
 
-If there is a bad plot, it is up to that particular detector expert to determine a policy for what to do. Most commonly, the shift crews will post a screenshot in the logbook -- the same as usual for other existing monitoring tools. 
+If there is a bad plot, it is up to that particular detector expert to determine a policy for what to do. Most commonly, the shift crews will post a screenshot in the logbook and tag the relevant experts-- the same as usual for other existing monitoring tools. 
 
 If the plot is "flickering" between good and bad, it is best to notify the detector experts and notify the Hydra team. We will work with detector experts to label images, train a new model, test the model, and put it into production. 
 
