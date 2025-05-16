@@ -19,6 +19,21 @@ The CUE login is required to view images. Depending on the experimental hall, th
 
 Hydra is automatically started either via the DAQ or cron jobs. There is no need for the shift crews to "start" hydra on their own. 
 
+# Navigating the Run page: 
+The navbar contains a hamburger menu that links to all other Hydra pages. To make identifying our various deployments easier, we place the experiment logos on the right hand side next to the navbar. An example navbar from the GlueX deployment is shown below. 
+
+![NavBar](../assets/Hydra_NavBar.png "Example of Hydra's NavBar")
+
+Underneath the navbar, we have a news banner. This is used to quickly communicate relevant information about Hydra to our end users. 
+
+The status indicator section provides information about the images the page shows. This includes a color legend, beam status, run number, and last update time _from the last set of images Hydra received_. The refresh icon is a polling indicator, which shows how often we are polling the relevant table to provide the latest inference results. If there are any hidden plots, you can view them by clicking on the hidden plots button. A screenshot of the status section is shown below. 
+
+![StatusSection](../assets/StatusSection_RunPage.png "Status Section of Run Page")
+
+The remainder of the page is dedicated to displaying the images that Hydra knows about and their classifications. Bad plots will automatically move to the Bad Plots container. This separation was implemented for deployments that contain a large number of images. All other non-Bad classified plots will be shown in the Plots container. In addition, users can filter which plots are shown by their own customized "groups". By default, images are grouped by detector system.
+
+![PlotContainers](../assets/PlotContainers_RunPage.png "Plot Containers")
+
 # Troubleshooting: 
 
 If the Run page is not showing any plots, and you are taking production data, it can indicate a potential problem with Hydra or the monitoring systems that send Hydra images (RootSpy in Hall D, mon12 in Hall B, Panguin in Halls A/C). If you suspect something is wrong, do not hesitate to contact us. 
