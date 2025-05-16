@@ -15,7 +15,7 @@ Shift crews at Jefferson Lab should monitor their respective Hydra Run Pages, wh
 | Hall C      | [Hydra Run](https://epsciweb.jlab.org/hallc_hydra) |
 | Hall D      | [Hydra Run](https://epsciweb.jlab.org/gluex_hydra) |
 
-The CUE login is required to view images. Depending on the experimental hall, the page will automatically update every minute (Hall D), every couple of minutes _when there is beam_ (Hall B), and once per run for Halls A and C. The page is automatically refreshed. 
+The CUE login is required to view images. Depending on the experimental hall, the page will automatically update every minute (Hall D), every couple of minutes _when there is beam_ (Hall B), and once per run for Halls A and C. 
 
 Hydra is automatically started either via the DAQ or cron jobs. There is no need for the shift crews to "start" hydra on their own. 
 
@@ -33,6 +33,13 @@ The status indicator section provides information about the images the page show
 The remainder of the page is dedicated to displaying the images that Hydra knows about and their classifications. Bad plots will automatically move to the Bad Plots container. This separation was implemented for deployments that contain a large number of images. All other non-Bad classified plots will be shown in the Plots container. In addition, users can filter which plots are shown by their own customized "groups". By default, images are grouped by detector system.
 
 ![PlotContainers](../assets/PlotContainers_RunPage.png "Plot Containers")
+
+Since the Hydra _application_ automatically polls the database, users do not need to refresh the page to see new images. There are certain instances where refreshing the page via the browser will not show new plots. This typically happens when: 
+
+- The beam is down
+- There has been an experiment configuration change, or
+- Images have temporarily stopped being sent to Hydra, or
+- A user has refreshed the page after the scheduled clearing of the relevant table in the database.
 
 # Troubleshooting: 
 
